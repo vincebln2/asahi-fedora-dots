@@ -16,7 +16,7 @@ for DEST in "${!CONFIG_LINKS[@]}"; do
   SRC="$SCRIPT_DIR/${CONFIG_LINKS[$DEST]}"
 
   if [ -e "$DEST" ] || [ -L "$DEST" ]; then
-    echo "⚠️  $DEST already exists."
+    echo "$DEST already exists."
     read -p "Do you want to replace it with a symlink to $SRC? (y/n): " answer
     if [[ "$answer" =~ ^[Yy]$ ]]; then
       echo "Removing $DEST"
