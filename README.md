@@ -2,5 +2,5 @@
 Backup of my dotfiles for hyprland
 
 ## Additional packages
-thunar
-hyprshot
+- thunar
+- hyprshot
