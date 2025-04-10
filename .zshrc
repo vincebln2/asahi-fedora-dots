@@ -10,7 +10,7 @@ zstyle :compinstall filename '/home/vince/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-
+alias vim='nvim'
 export EDITOR=vim
 export VISUAL=vim
 PROMPT="[%n@%m%~]$ "
@@ -20,3 +20,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 pokefetch # show a random pokemon using fastfetch
+alias bat=batcat

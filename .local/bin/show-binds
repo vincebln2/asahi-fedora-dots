@@ -1,0 +1,4 @@
+#!/bin/bash
+kitty --class cheatsheet --override "background_opacity=0.8" \
+  --title "Hyprland Keybinds" \
+  sh -c 'cat ~/.config/hypr/keybinds.txt; read -rsn1'

@@ -1,12 +1,6 @@
 # asahi-fedora-dots
 
-This repo includes my configs and a setup script for:
-
-- Hyprland
-- Hyprlock
-- Hypridle
-- swww
-- Hyprshot
+This repo includes my dotfiles for hyprland on asahi fedora remix.
 
 The setup script creates symlinks from the dotfiles in this directory to where the above packages use the .conf files.
 
@@ -17,6 +11,8 @@ The setup script creates symlinks from the dotfiles in this directory to where t
 - Hypridle
 - swww
 - thunar
+- fastfetch
+- cargo
 
 To install these on Fedora:
 
