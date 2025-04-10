@@ -1,33 +1,27 @@
-╔══════════════════════════════════════╦═════════════════════════════════════╗
-║               Keybind                ║              Action                 ║
-╠══════════════════════════════════════╬═════════════════════════════════════╣
-║ Super + Enter                        ║ Launch terminal (kitty)             ║
-║ Super + B                            ║ Launch browser (firefox)            ║
-║ Super + E                            ║ Launch file manager (thunar)        ║
-║ Super + Space                        ║ Application launcher (wofi)         ║
-║ Super + V                            ║ Toggle floating                     ║
-║ Super + Q                            ║ Close active window                 ║
-║ Super + M                            ║ Exit Hyprland                       ║
-║ Super + F                            ║ Toggle fullscreen                   ║
-║ Super + P                            ║ Toggle pseudotile (dwindle)         ║
-║ Super + J                            ║ Toggle split (dwindle)              ║
-║ Super + H / J / K / L                ║ Move focus left/down/up/right       ║
-║ Super + 1..0                         ║ Switch to workspace 1–10            ║
-║ Super + Shift + 1..0                 ║ Move window to workspace 1–10       ║
-║ Super + S                            ║ Toggle special workspace (magic)    ║
-║ Super + Shift + S                    ║ Move window to special workspace    ║
-║ Super + Left Click                   ║ Move window                         ║
-║ Super + Right Click                  ║ Resize window                       ║
-║ Super + Scroll Up/Down               ║ Cycle workspaces                    ║
-║ Super + XF86MonBrightnessUp          ║ Increase brightness                 ║
-║ Super + XF86MonBrightnessDown        ║ Decrease brightness                 ║
-║ XF86AudioRaiseVolume                 ║ Volume up                           ║
-║ XF86AudioLowerVolume                 ║ Volume down                         ║
-║ XF86AudioMute                        ║ Mute audio                          ║
-║ XF86AudioMicMute                     ║ Mute microphone                     ║
-║ XF86AudioPlay / Pause                ║ Toggle playback (playerctl)         ║
-║ XF86AudioNext / Prev                 ║ Media controls (playerctl)          ║
-║ Super + Shift + P                    ║ Screenshot (hyprshot)               ║
-║ Super + Shift + C                    ║ Launch VSCode                       ║
-║ Super + Shift + L                    ║ Lock screen (hyprlock)              ║
-╚══════════════════════════════════════╩═════════════════════════════════════╝
+╭─────────────────────────────┬───────────────────────────────╮
+│         Keybind             │               Action          │
+├─────────────────────────────┼───────────────────────────────┤
+│ SUPER + Return              │ Launch terminal (kitty)       │
+│ SUPER + B                   │ Launch browser (firefox)      │
+│ SUPER + E                   │ Launch file manager (thunar)  │
+│ SUPER + Space               │ App launcher (wofi)           │
+│ SUPER + F                   │ Toggle fullscreen             │
+│ SUPER + Shift + F           │ Toggle floating               │
+│ SUPER + Q                   │ Close active window           │
+│ SUPER + M                   │ Exit Hyprland                 │
+│ SUPER + P                   │ Pseudo (dwindle)              │
+│ SUPER + J                   │ Toggle split (dwindle)        │
+│ SUPER + H/J/K/L             │ Move focus ← ↓ ↑ →            │
+│ SUPER + Shift + H/J/K/L     │ Move window ← ↓               │
+│ SUPER + 1..0                │ Switch to workspace 1–10      │
+│ SUPER + Shift + 1..0        │ Move window to workspace 1–10 │
+│ SUPER + S                   │ Toggle scratchpad (magic)     │
+│ SUPER + Shift + S           │ Move window to scratchpad     │
+│ SUPER + Scroll              │ Cycle workspaces              │
+│ SUPER + Shift + P           │ Screenshot (region)           │
+│ SUPER + Shift + C           │ Launch VSCode                 │
+│ SUPER + Ctrl + L            │ Lock screen (hyprlock)        │
+│ SUPER + Ctrl + H            │ Show keybind cheatsheet       │
+│ SUPER + R                   │ Reload Hyprland config        │
+╰─────────────────────────────┴───────────────────────────────╯
+
