@@ -1,0 +1,5 @@
+#!/bin/bash
+
+(
+  pokeget random --hide-name
+) | /bin/fastfetch --logo-type file-raw --logo - --config ~/.config/fastfetch/config.jsonc
