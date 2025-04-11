@@ -5,8 +5,8 @@
     "spacing": 5,
 
     "modules-left": ["hyprland/workspaces", "group/usage"],
-    "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "group/bat", "group/net", "tray"],
+    "modules-center": [],
+    "modules-right": ["clock", "wireplumber", "group/bat", "group/net", "tray"],
 
     "group/usage": {
         "orientation": "horizontal",
